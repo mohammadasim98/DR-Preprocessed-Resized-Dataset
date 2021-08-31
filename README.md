@@ -10,4 +10,5 @@ Each images were first preprocessed using OpenCV in Python based Ben Graham impl
 In the preprocessing step,
 * First the image is blurred using Gaussian Filter.
 * Followed by element-wise subtraction.
+
 Then each image were resized to 256x256x3 and split into training and test sets.
